@@ -1,0 +1,38 @@
+
+#contain_back{
+    position: relative;
+	margin: 0 auto;/* 居中 */
+    height: 600px;
+    width: 1000px;
+    overflow: hidden;/* 解决bfc问题 */;
+    background: url('../img/first.jpg')
+}
+#contain_back img{
+    height:100%;
+    width: 100%;
+}
+#prev,#next{
+    position: absolute;
+    display:inline-block;
+    margin-top:-50px;
+}
+#prev{
+    left:25px;
+    display: none;
+   
+}
+#next{
+    left:780px;
+}
+input{
+    position: absolute;
+    top:515px;
+    left:420px;
+    background:none;
+    border: none;
+    font-size: 50px;
+    color: #8c8c8c;
+    font-weight: bolder;
+    outline: none;
+    font-family: 微软雅黑;
+}

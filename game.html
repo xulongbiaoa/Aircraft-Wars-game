@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>飞机大战</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/game.css">
+	<script src='js/main.js'></script>
+</head>
+
+<body>
+	<img id="img" src="img/background.jpg" alt="">
+	<audio id='bgm' src="audio/bgm.mp3"  width="0" height="0" loop='1' autoplay='autoplay'></audio>
+	<audio id='shot' src="audio/shout.mp3"  width="0" height="0"></audio>
+	<audio id='blood' src="audio/blood.mp3"  width="0" height="0"></audio>
+	<div class="message">
+		<h1 class="show">血量<span></span></h1>
+		<h1 class="show">分数<span></span></h1>
+		<a id='pause-button'></a>
+	</div>
+	<!-- 遮罩层 -->
+	<div id=mask>
+		
+
+	</div>
+	<div id='pause'>
+		<h1></h1>
+		<h1></h1>
+		<a class="button">继续游戏</a>
+		<a class="button" href="game.html">重新游戏</a>
+		<a class="button" href="index.html">回到主页</a>
+	</div>
+
+
+
+
+</body>
+
+</html>
