@@ -31,6 +31,7 @@ window.onload = function () {
         }
 
     }
+    
     function background() {
         img.style.top = img.offsetTop + 2 + 'px';
         if (img.offsetTop === 0) {
